@@ -1,0 +1,24 @@
+
+
+.list{
+    margin-top: 4vw;
+}
+
+.listContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.listContainer > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.listContainer > h2{
+ text-align: center;
+ color: #fff;
+    
+}
