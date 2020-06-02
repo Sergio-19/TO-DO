@@ -1,6 +1,7 @@
 import React from 'react'
 import {Header} from './header/Header'
 import { TodoList } from './todoList/TodoList';
+import { Info } from './info/Info';
 
 
 export const Layout = (props) =>{
@@ -10,7 +11,7 @@ export const Layout = (props) =>{
 
             <Header />
 
-
+            
             <TodoList  
                 todo = {props.todo}
                 newTodo = {props.newTodo}
@@ -21,6 +22,7 @@ export const Layout = (props) =>{
             
             />
             
+            <Info infoHandler = {props.infoHandler} info = {props.info}/>
 
         </div>
     )

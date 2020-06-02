@@ -11,9 +11,15 @@ class App extends React.Component{
     this.state = {
        todo: [],
        newTodo: '',
-       disabled: false
+       disabled: false,
+       info: false
     }
 
+  }
+
+
+  infoHandler = () =>{
+    this.setState({info: !this.state.info})
   }
 
 
@@ -71,9 +77,11 @@ componentDidMount(){
       todo = {this.state.todo}
       newTodo = {this.state.newTodo}
       disabled = {this.state.disabled}
+      info = {this.state.info}
       addTodoHandler = {this.addTodoHandler}
       removeTodoHandler = {this.removeTodoHandler}
       newTodoHandler = {this.newTodoHandler}
+      infoHandler = {this.infoHandler}
       
       />
 
