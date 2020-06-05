@@ -16,6 +16,11 @@ li{
     -o-transition: all .2s ease-in;
     padding: .7vw 1vw;
     margin-bottom: 1.5vw;
+    min-height: 38px;
+    
+
+    align-items: center;
+    
 }
 
 li:hover{
@@ -26,4 +31,13 @@ li:hover{
 li > span > button:hover{
     cursor: pointer;
     background: #61DAFB;
+}
+
+li span{
+    font-size: 1.6rem;
+}
+
+li button{
+    max-height: 30px;
+    max-width: 30px;
 }

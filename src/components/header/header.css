@@ -3,22 +3,10 @@ header{
     text-align: center;
     padding-top: 1.5vw;
     color: #fff;
-}
-
-.info{
-    background: #32363E;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    min-height: 3vw;
-}
-
-.infoBtn{
 
 }
 
-.infoTxt{
-
+header h1{
+    font-size: 3vh;
 }
+
